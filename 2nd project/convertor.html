@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="convertor.css">
+
+    <title>Number System Convertor</title>
+
+
+</head>
+<body>
+    
+    <!-- <div > -->
+    <form action=""  class="displays">
+        <h3 class="text1">Number System Convertor</h3>
+        <h5 class="text" >decimal</h5>
+        <input type="number" class="decimal" placeholder="0" oninput="result()" onchange="result()" ><br>
+        <h5 class="text">binary</h5>
+        <input type="number" class="binary"  placeholder="0" oninput="result2()"  onchange="result2()"><br>
+        <h5 class="text">octal</h5>
+        <input type="number" class="oct"     placeholder="0" oninput="result3()" onchange="result3()"><br>
+        <h5 class="text">hexadecimal</h5>
+        <input type="text" class="hex"     placeholder="0" oninput="result4()" onchange="result4()"><br> 
+        <button onclick="result7()" class="res">Reset</button>
+    </form>
+<!-- </div> -->
+    <script src="convertor.js">
+    </script>
+</body>
+</html>
